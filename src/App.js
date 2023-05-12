@@ -49,7 +49,7 @@ function App() {
       <div className='matrixContainer'>
 
         <div className="matrix" id='e-commerce'>
-          <a onClick={()=> redirection('https://e-commerce-web-addi.onrender.com', 'e-commerce')}>E-commerce (fullstack)
+          <a onClick={()=> redirection('https://e-commerce-web-w137.onrender.com/', 'e-commerce')}>E-commerce (fullstack)
             <br/>
             <img src={EcommercePic} width="300"
             alt="imagem do app Ecommerce"/>
@@ -91,7 +91,7 @@ function App() {
         </div>
 
         <div className="matrix" id='fakebank'>
-          <a onClick={()=> redirection("https://fakebank.onrender.com/", 'fakebank')}>Fakebank (fullstack)
+          <a onClick={()=> redirection("https://fakebank-web.onrender.com/", 'fakebank')}>Fakebank (fullstack)
             <br/>
             <img src={LabebankPic} width="300" alt="imagem do app labebank"/>
           </a>
@@ -128,7 +128,7 @@ function App() {
         </div>
 
         <div className="matrix" id='ifuture'>
-          <a onClick={()=> redirection("https://ifuture-eyeb.onrender.com/", 'ifuture')}>Ifuture (frontend)
+          <a onClick={()=> redirection("https://ifuture-nv78.onrender.com/", 'ifuture')}>Ifuture (frontend)
             <br/>
             <img src={Ifuture} width="300" height='400' 
             alt="imagem do app labefood"/>

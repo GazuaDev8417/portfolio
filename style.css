@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+
+
+body{
+  background-image: linear-gradient(to right, purple, #292929);
+  color: whitesmoke;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15pt;
+}
+
+.container{
+  margin-left: 30px;
+
+  @media(max-width: 600px){
+      margin-left: 5px;
+  }
+}
+
+h1{
+  text-align: center;
+}
+
+
+.matrixContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  @media(max-width: 600px){    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.matrix{
+  margin-top: 10vh;
+  width: 300px;
+  box-shadow: 3px 3px 6px black;
+  padding: 5px;
+}
+
+.matrix:hover{
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+  transition: 1s;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%{
+  border-color: pink;
+  }
+  50%{
+  border-color: palevioletred;
+  }
+  100%{
+  border-color: purple;
+  }
+  
+}
+
+.matrixTxt{
+  margin: 5px;
+}
+
+a{
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  @media(max-width: 600px){
+      left: 45%;
+      transform: translateX(-50%);
+  }
+}
+
+footer ul{
+  position: relative;
+  display: flex;
+}
+
+footer ul li{
+  position: relative;
+  list-style: none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+footer ul li a{
+  text-decoration: none;
+}
+
+footer ul li a .icons{
+  font-size: 1.5em;
+  color: #222;
+}
+
+.instagram:hover{
+  transition: 1s;
+  background: linear-gradient(45deg, purple, #dc2743);
+  border-radius: 30%;
+  color: purple;
+}
+
+.whatsapp:hover{
+  transition: 1s;
+  background: linear-gradient(45deg, green, #25d366);
+  border-radius: 50%;
+  color: green;
+}
+
+.linkedin:hover{
+  transition: 1s;
+  background: linear-gradient(45deg, whitesmoke, white);
+  color: #1da1f2;
+}

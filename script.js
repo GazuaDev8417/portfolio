@@ -28,7 +28,7 @@ document.getElementById('e-commerce-backRepo')
 
 
 document.getElementById('loja-de-servicosPage')
-.addEventListener('click', ()=> redirection('https://loja-de-servicos.onrender.com/', 'loja-de-servicos'))
+.addEventListener('click', ()=> redirection('https://lojda-de-servicos.onrender.com', 'loja-de-servicos'))
 document.getElementById('loja-de-servicosGp')
 .addEventListener('click', ()=> redirection('https://play.google.com/store/apps/details?id=com.gazua300.acheiservicos', 'loja-de-servicos'))
 document.getElementById('loja-de-servicosFrontRepo')

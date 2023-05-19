@@ -54,6 +54,10 @@ document.getElementById('fakebank-mobileRepo')
 document.getElementById('pix-menagerDocs')
 .addEventListener('click', ()=> redirection("https://documenter.getpostman.com/view/11884929/2s93XsYmN8", 'pix-menager'))
 
+document.getElementById('super-form-page')
+.addEventListener('click', ()=> redirection('https://super-form.onrender.com/', 'super-form'))
+document.getElementById('super-formRepo')
+.addEventListener('click', ()=> redirection('https://github.com/GazuaDev8417/super-form', 'super-form'))
 
 document.getElementById('ifuturePage')
 .addEventListener('click', ()=> redirection("https://ifuture-vanilla.onrender.com/", 'ifuture'))

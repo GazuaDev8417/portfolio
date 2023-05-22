@@ -62,7 +62,7 @@ document.getElementById('super-form-backendRepo')
 .addEventListener('click', ()=> redirection('https://github.com/GazuaDev8417/super-form-server', 'super-form'))
 
 document.getElementById('ifuturePage')
-.addEventListener('click', ()=> redirection("https://ifuture-vanilla.onrender.com/", 'ifuture'))
+.addEventListener('click', ()=> redirection("https://ifuture-mk1e.onrender.com", 'ifuture'))
 document.getElementById('ifuture-gp')
 .addEventListener('click', ()=> redirection('https://play.google.com/store/apps/details?id=com.gazua300.ifuture', 'ifuture'))
 document.getElementById('ifuture-frontRepo')

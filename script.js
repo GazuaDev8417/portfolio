@@ -20,7 +20,7 @@ const redirection = (link, id)=>{
 
 
 document.getElementById('e-commerce-frontPage')
-.addEventListener('click', ()=> redirection('https://e-commerce-web-w137.onrender.com/', 'e-commerce'))
+.addEventListener('click', ()=> redirection('https://e-commerce-mob8.onrender.com', 'e-commerce'))
 document.getElementById('e-commerce-frontRepo')
 .addEventListener('click', ()=> redirection('https://github.com/GazuaDev8417/e-commerce_web', 'e-commerce'))
 document.getElementById('e-commerce-backRepo')
@@ -28,7 +28,7 @@ document.getElementById('e-commerce-backRepo')
 
 
 document.getElementById('loja-de-servicosPage')
-.addEventListener('click', ()=> redirection('https://lojda-de-servicos.onrender.com', 'loja-de-servicos'))
+.addEventListener('click', ()=> redirection('https://loja-de-servicos-e94s.onrender.com/', 'loja-de-servicos'))
 document.getElementById('loja-de-servicosGp')
 .addEventListener('click', ()=> redirection('https://play.google.com/store/apps/details?id=com.gazua300.acheiservicos', 'loja-de-servicos'))
 document.getElementById('loja-de-servicosFrontRepo')
@@ -40,7 +40,7 @@ document.getElementById('loja-de-servicos-repoMobile')
 
 
 document.getElementById('fakebankPage')
-.addEventListener('click', ()=> redirection('https://fakebank-web.onrender.com/', 'fakebank'))
+.addEventListener('click', ()=> redirection('https://fakebank-ji8j.onrender.com', 'fakebank'))
 document.getElementById('fakebank-gp')
 .addEventListener('click', ()=> redirection('https://play.google.com/store/apps/details?id=com.gazua300.fakebank', 'fakebank'))
 document.getElementById('fakebank-webRepo')
@@ -55,9 +55,11 @@ document.getElementById('pix-menagerDocs')
 .addEventListener('click', ()=> redirection("https://documenter.getpostman.com/view/11884929/2s93XsYmN8", 'pix-menager'))
 
 document.getElementById('super-form-page')
-.addEventListener('click', ()=> redirection('https://super-form.onrender.com/', 'super-form'))
+.addEventListener('click', ()=> redirection('https://super-formulario.onrender.com/', 'super-form'))
 document.getElementById('super-formRepo')
 .addEventListener('click', ()=> redirection('https://github.com/GazuaDev8417/super-form', 'super-form'))
+document.getElementById('super-form-backendRepo')
+.addEventListener('click', ()=> redirection('https://github.com/GazuaDev8417/super-form-server', 'super-form'))
 
 document.getElementById('ifuturePage')
 .addEventListener('click', ()=> redirection("https://ifuture-vanilla.onrender.com/", 'ifuture'))

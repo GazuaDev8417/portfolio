@@ -52,7 +52,9 @@ document.getElementById('fakebank-mobileRepo')
 
 
 document.getElementById('pix-menagerDocs')
-.addEventListener('click', ()=> redirection("https://documenter.getpostman.com/view/11884929/2s93XsYmN8", 'pix-menager'))
+.addEventListener('click', ()=> redirection("https://documenter.getpostman.com/view/11884929/2s93XsYmN8", 'pix-manager'))
+document.getElementById('pix-managerApiRepo')
+.addEventListener('click', ()=> redirection('https://github.com/GazuaDev8417/api_pix', 'pix-manager'))
 
 document.getElementById('super-form-page')
 .addEventListener('click', ()=> redirection('https://super-formulario.onrender.com/', 'super-form'))

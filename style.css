@@ -99,7 +99,7 @@ footer{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 10vh;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -108,6 +108,11 @@ footer{
       left: 45%;
       transform: translateX(-50%);
   }
+}
+
+footer .text-footer{
+  position: relative;
+  left: 6%;
 }
 
 footer ul{
@@ -148,5 +153,6 @@ footer ul li a .icons{
 .linkedin:hover{
   transition: 1s;
   background: linear-gradient(45deg, whitesmoke, white);
+  border-radius: 20%;
   color: #1da1f2;
 }

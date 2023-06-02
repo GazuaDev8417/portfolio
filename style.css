@@ -28,6 +28,7 @@ h1{
 .matrixContainer{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 
   @media(max-width: 600px){    
     display: flex;

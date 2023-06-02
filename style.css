@@ -38,6 +38,14 @@ h1{
   @media(max-width: 800px){
     grid-template-columns: repeat(2, 1fr);
   }
+
+  @media(max-width: 1024px){
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media(min-width: 1400px){
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .matrix{
@@ -48,7 +56,7 @@ h1{
 
   @media(max-width: 800px){
     width: 90%;
-  }
+  } 
 }
 
 img{
@@ -155,4 +163,32 @@ footer ul li a .icons{
   background: linear-gradient(45deg, whitesmoke, white);
   border-radius: 20%;
   color: #1da1f2;
+}
+
+@media print{
+  @page{
+    size: portrait;
+  }
+
+  body{
+    color: black;
+  }
+
+  img{
+    width: 100vw;
+  }
+}
+
+@media print{
+  @page{
+    size: landscape;
+  }
+
+  .firstContent{
+    margin-bottom: -30px;
+  }
+
+  .firstTitle{
+    margin-top: -30px;
+  }
 }
